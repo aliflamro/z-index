@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    line-height: 1.4;
+    font-family: 'Times New Roman';
+    font-size: normal;
+}
+body {
+    background: #FFCBEC;
+    max-width: 768px;
+    margin: 0 auto;
+}
+img {
+    object-fit: cover;
+}
+h1,h2,h3 {
+    margin: 0;
+}
+.contoh-ads{
+    max-width: 768px;
+    margin: 0 auto;
+    background: #FF63C6 !important;
+    border: 3px solid #FF97D9 !important;
+    min-height: 90vh;
+    border-radius: 10px;
+    position: fixed;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    z-index: 1026;
+}
+.ads{
+    position: relative;
+    width: 100px;
+    height: 10vh;
+    margin: 300px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFCBEC;
+}
+.zin-blog{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1027;
+}
+.max{
+    background: #FFE4F5;
+    padding: 15px;
+    z-index: 1028;
+}
+.long{
+    height: 200px;
+}
